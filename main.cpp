@@ -1,0 +1,71 @@
+#include <iostream>
+#include<string>
+int main(){
+int points {0};
+std::string ans1;
+std::string ans2;
+std::string ans3;
+std::string ans4;
+std::string ans5;
+std::cout<<"hi welcome to the programming era "<<std::endl;
+std::cout<<"this is a riddle game "<<std::endl;
+std::cout<<"------------------"<<std::endl;
+std::cout <<"Q1: which is the largest planet in our solar system?"<<std::endl;
+std::cin>> ans1;
+if (ans1 == "jupiter"){
+ points= points + 1;
+std::cout<<"congrats it is the right answer "<<std::endl;
+}
+else{
+   std::cout<<"it is wrong try again "<<std::endl;
+
+}
+std::cout <<"Q2: what is called as dwarf planet ?"<<std::endl;
+std::cin>>ans2;
+if (ans2 == "pluto"){
+ ++points;
+std::cout<<"congrats it is the right answer "<<std::endl;
+}
+else{
+   std::cout<<"it is wrong try again "<<std::endl;
+
+}
+std::cout <<"Q3: which is the smallest planet in our solar system?"<<std::endl;
+std::cin>> ans3;
+if (ans3 == "mercury"){
+ ++points;
+std::cout<<"congrats it is the right answer "<<std::endl;
+}
+else{
+   std::cout<<"it is wrong try again "<<std::endl;
+
+}
+
+std::cout <<"Q4: which is the planet with rings in our solar system?"<<std::endl;
+std::cin>> ans4;
+if (ans4 == "saturn"){
+ ++points;
+std::cout<<"congrats it is the right answer "<<std::endl;
+}
+else{
+   std::cout<<"it is wrong try again "<<std::endl;
+
+}
+std::cout <<"Q5: which is the hottest planet in our solar system?"<<std::endl;
+std::cin>> ans5;
+if (ans5 == "venus"){
+ ++points;
+std::cout<<"congrats it is the right answer "<<std::endl;
+}
+else{
+   std::cout<<"it is wrong try again "<<std::endl;
+
+}
+std::cout<<"congrats on finishing this quiz "<<std::endl;
+std::cout<<"your total points is:  "<<points<<std::endl;
+
+
+
+
+
+}
