@@ -14,7 +14,7 @@ std::cout<<"------------------"<<std::endl;
  //question 1
 std::cout <<"Q1: which is the largest planet in our solar system?"<<std::endl;
 std::cin>> ans1;
-if (ans1 == "jupiter"){
+if (ans1 == "jupiter" || ans1 == "Jupiter){
  points= points + 1;
 std::cout<<"congrats it is the right answer "<<std::endl;
 }
@@ -66,8 +66,9 @@ else{
    std::cout<<"it is wrong try again "<<std::endl;
 
 }
+ 
 std::cout<<"congrats on finishing this quiz "<<std::endl;
-std::cout<<"your total points is:  "<<points<<std::endl;
+std::cout<<"your total point out of 5  is:  "<<points<<std::endl;
 
 
 }
