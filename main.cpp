@@ -36,7 +36,7 @@ else{
  //question 3
 std::cout <<"Q3: which is the smallest planet in our solar system?"<<std::endl;
 std::cin>> ans3;
-if (ans3 == "mercury"){
+if (ans3 == "mercury" || ans3 = "Mercury"){
  ++points;
 std::cout<<"congrats it is the right answer "<<std::endl;
 }
@@ -47,7 +47,7 @@ else{
 //question4
 std::cout <<"Q4: which is the planet with rings in our solar system?"<<std::endl;
 std::cin>> ans4;
-if (ans4 == "saturn"){
+if (ans4 == "saturn" || ans4 = "Saturn"){
  ++points;
 std::cout<<"congrats it is the right answer "<<std::endl;
 }
