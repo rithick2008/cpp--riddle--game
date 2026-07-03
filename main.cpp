@@ -25,7 +25,7 @@ else{
  //question 2
 std::cout <<"Q2: what is called as dwarf planet ?"<<std::endl;
 std::cin>>ans2;
-if (ans2 == "pluto"){
+if (ans2 == "pluto" || ans2 = "Pluto"){
  ++points;
 std::cout<<"congrats it is the right answer "<<std::endl;
 }
