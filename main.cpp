@@ -58,7 +58,7 @@ else{
  //question5
 std::cout <<"Q5: which is the hottest planet in our solar system?"<<std::endl;
 std::cin>> ans5;
-if (ans5 == "venus"){
+if (ans5 == "venus" || ans5 = "Venus"){
  ++points;
 std::cout<<"congrats it is the right answer "<<std::endl;
 }
