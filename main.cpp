@@ -66,6 +66,9 @@ else{
    std::cout<<"it is wrong try again "<<std::endl;
 
 }
+if(points== 0 ){
+ std::cout<<"you have to improve your astronmical knowledge"<<std::endl;
+}
  
 std::cout<<"congrats on finishing this quiz "<<std::endl;
 std::cout<<"your total point out of 5  is:  "<<points<<std::endl;
