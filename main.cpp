@@ -10,7 +10,7 @@ std::string ans4;
 std::string ans5;
 std::cout<<"hi welcome to the game pal "<<std::endl;
 std::cout<<"this is a  astronomical riddle game "<<std::endl;
-std::cout<<"------------------"<<std::endl;
+std::cout<<"--------------"<<std::endl;
  //question 1
 std::cout <<"Q1: which is the largest planet in our solar system?"<<std::endl;
 std::cin>> ans1;
